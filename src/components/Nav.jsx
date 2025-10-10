@@ -11,10 +11,18 @@ const Nav = () => {
                 <NavLink to="story" end>
                     Our Story
                 </NavLink>
-                <a href="#">Venue</a>
-                <a href="#">Itinerary</a>
-                <a href="#">FAQs</a>
-                <a href="#">RSVP</a>
+                <NavLink to="venue" end>
+                    Venue
+                </NavLink>
+                <NavLink to="itinerary" end>
+                    Itinerary
+                </NavLink>
+                <NavLink to="details-and-faqs" end>
+                    Details & FAQs
+                </NavLink>
+                <NavLink to="rsvp" end>
+                    RSVP
+                </NavLink>
             </nav>
         </>
     )

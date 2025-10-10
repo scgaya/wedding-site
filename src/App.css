@@ -18,7 +18,7 @@ a:active {
 .App {
   text-align: center;
   background-color: #fcf9f7;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(6px + 2vmin);
   font-family: "Old Standard TT", serif;
 }
 
@@ -27,37 +27,21 @@ a:active {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   padding-top: 4vh;
-  font-family: "Old Standard TT", serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .Title {
   font-family: "Parisienne", cursive;
   font-size: calc(60px + 2vmin);
 }
 
 /* Home */
-.Home-container {
-  min-height: 100vh;
+.Home-container,
+.Story-container,
+.Venue-container,
+.Itinerary-container {
+  min-height: 96vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,9 +55,9 @@ a:active {
 .Home-details {
   display: flex;
   flex-direction: row;
-  p {
-    padding: 0 10vw;
-  }
+  align-items: center;
+  width: 50vw;
+  justify-content: space-between;
 }
 
 /* Navigation */
@@ -85,24 +69,15 @@ a:active {
   }
 }
 
-.Story-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 /* Story section */
 .Story-details {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
 
   img {
     max-width: 30%;
     padding-left: 6vw;
-    padding-top: 4vh;
+    padding-top: 2vh;
   }
 }
 
@@ -113,5 +88,51 @@ a:active {
 
   p {
     padding: 0 8vw;
+  }
+}
+
+/* Venue section */
+.Venue-container {
+  p {
+    padding: 0 10vw;
+  }
+}
+
+.Ceremony-details,
+.Reception-details,
+.Dress-details {
+  padding-bottom: 2vh;
+}
+
+/* Itinerary section */
+.Itinerary-details {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    max-width: 30%;
+    padding-right: 8vw;
+    padding-top: 2vh;
+  }
+}
+
+.Itinerary-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12vw;
+  text-align: left;
+
+  p {
+    margin: 0;
+    padding-bottom: 2vh;
+    font-size: calc(6px + 2vmin);
+  }
+
+  h5 {
+    margin: 0;
+    padding-bottom: 1vh;
+    font-size: calc(10px + 2vmin);
+    text-decoration: underline;
   }
 }
