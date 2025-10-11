@@ -16,6 +16,22 @@ a.active {
   color: #3389cc;
 }
 
+button {
+  border: solid 1px gray;
+  background-color: #9db5c9;
+  padding: 1vh 2vw;
+  font-family: "Old Standard TT", serif;
+  font-size: calc(0.8rem + 2vmin);
+
+  a {
+    color: black;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .App {
   min-height: 100vh;
   background-color: #fcf9f7;
@@ -33,7 +49,6 @@ a.active {
   font-size: calc(3rem + 2vmin);
 }
 
-/* Home */
 .Home-container,
 .Story-container,
 .Venue-container,
@@ -46,6 +61,7 @@ a.active {
   justify-content: center;
 }
 
+/* Home */
 .Home-image {
   width: 60%;
 }
@@ -62,11 +78,6 @@ a.active {
   }
 }
 
-.Home-rsvp-link {
-  text-decoration: underline;
-  color: #3389cc;
-}
-
 /* Navigation */
 .Nav-row {
   display: flex;
@@ -81,7 +92,7 @@ a.active {
   display: none;
 }
 
-/* Story section */
+/* Story */
 .Story-details {
   display: flex;
   flex-direction: row;
@@ -116,7 +127,7 @@ a.active {
   padding-bottom: 2vh;
 }
 
-/* Itinerary section */
+/* Itinerary */
 .Itinerary-details {
   display: flex;
   flex-direction: row;
@@ -148,7 +159,7 @@ a.active {
   }
 }
 
-/* FAQ section */
+/* FAQ */
 .FAQ-row {
   display: flex;
   flex-direction: row;
@@ -160,29 +171,70 @@ a.active {
   }
 }
 
-/* RSVP section */
+/* RSVP */
 .RSVP-details {
   display: flex;
   flex-direction: row;
 
   img {
     max-width: 30%;
-    padding: 2vh 6vw;
+    padding: 2vh 2vw;
   }
 }
-
 .RSVP-info {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.RSVP-text {
+  text-align: center;
+  padding-bottom: 6vh;
+  padding: 0 8vw;
+}
+
+.RSVP-button {
+  margin: 1vh 0;
+}
+
+.Contact-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.Contact-card {
   p {
-    padding: 0 8vw;
+    margin: 0;
+    padding: 0 2vw;
   }
 }
 
 /* styling for mobile phones */
 @media (max-width: 450px) {
+  .App {
+    font-size: calc(0.6rem + 2vmin);
+  }
+
   .App-header {
     padding-top: 2vh;
+  }
+
+  .Title {
+    font-size: calc(2rem + 2vmin);
+  }
+
+  .Home-container,
+  .Story-container,
+  .Venue-container,
+  .Itinerary-container,
+  .FAQ-container,
+  .RSVP-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
   }
 
   /* Navigation */
@@ -193,7 +245,7 @@ a.active {
   .Nav-mobile {
     display: flex;
     justify-content: right;
-    margin-left: auto;
+    /* margin-left: auto; */
     position: relative;
   }
 
@@ -222,5 +274,100 @@ a.active {
     top: 50%;
     right: 5%;
     z-index: 1;
+  }
+
+  /* Home */
+  .Home-image {
+    width: 100%;
+  }
+
+  .Home-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: calc(1rem + 2vmin);
+    }
+  }
+
+  /* Story */
+  .Story-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
+  /* Itinerary */
+  .Itinerary-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
+  /* FAQ */
+  .FAQ-details {
+    padding-top: 3vh;
+  }
+
+  .FAQ-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  /* RSVP */
+  .RSVP-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
+  .RSVP-text {
+    padding: 0 2vw;
+  }
+
+  .Contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contact-details {
+    padding-top: 3vh;
+  }
+
+  .Contact-card {
+    border-bottom: solid 1px black;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+  }
+
+  .last {
+    border-bottom: none;
   }
 }

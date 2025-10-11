@@ -1,4 +1,5 @@
 import RSVPImage from "../images/PBM_9081.jpg"
+import { NavLink } from "react-router";
 
 const RSVP = () => {
     return (
@@ -8,11 +9,34 @@ const RSVP = () => {
             <div className="RSVP-details">
                 <img src={RSVPImage} alt="Sara laying her head on Andrew's shoulder"/>
                 <div className="RSVP-info">
-                    <h2>Please RSVP by March 20, 2026</h2>
-                    (put RSVP button or form here)
-                </div>
-                <div className="Contact-info">
-
+                    <div className="RSVP-text">
+                        <h2>Please RSVP by March 20, 2026</h2>
+                        <button className="RSVP-button">
+                            <NavLink to="/" end>RSVP Here</NavLink>
+                        </button>
+                    </div>
+                    <div className="Contact-details">
+                        <h2>Contact Info</h2>
+                        <p>If you have any questions or concerns, do not hesitate to reach out to us!
+                        </p>
+                        <div className="Contact-info">
+                            <div className="Contact-card">
+                                <p>Sara Gaya</p>
+                                <p>(786)-714-6909</p>
+                                <p>saracgaya@gmail.com</p>
+                            </div>
+                            <div className="Contact-card">
+                                <p>Lourdes Delavega</p>
+                                <p>(786)-251-9489</p>
+                                <p>gayar@bellsouth.net</p>
+                            </div>
+                            <div className="Contact-card last">
+                                <p>Dianne Sanchez</p>
+                                <p>(786)-258-3068</p>
+                                <p>dianneriggs@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

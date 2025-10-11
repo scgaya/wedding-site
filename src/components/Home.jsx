@@ -11,7 +11,9 @@ const Home = () => {
             <img src={HomeImage} className="Home-image" alt="Homepage landing of Sara & Andrew" />
             <div className='Home-details'>
                 <p>May 22, 2026</p>
-                <NavLink to="rsvp" className="Home-rsvp-link" end>Please RSVP on or before March 20, 2026</NavLink>
+                <button>
+                    <NavLink to="rsvp" end>RSVP</NavLink>
+                </button>
                 <p>Miami, FL</p>
             </div>
         </div>

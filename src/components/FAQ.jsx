@@ -5,7 +5,7 @@ const FAQ = () => {
         <>
         <div className="FAQ-container">
             <div className="Title">Details & Frequently Asked Questions</div>
-            <div>
+            <div className="FAQ-details">
                 <div className="FAQ-row">
                     <h2>Dress Code & Parking</h2>
                     <p>The dress code is formal attire, no tuxedos required. All events will be inside,
