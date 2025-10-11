@@ -16,11 +16,6 @@ const Venue = () => {
                 <div className="Title">The Pakistani Reception</div>
                 <p>There will be a Pakistani reception the following day (May 23) at the Weston Hills Country Club. Cocktails and hors d'ouevres begin at 5 p.m., with the reception to follow in the adjacent ballroom.</p>
             </div>
-            {/* <hr width="20%" size="1" />
-            <div className="Dress-details">
-                <div className="Subtitle">Dress Code & Parking</div>
-                <p>Formal attire is requested, no tuxedos required. All events will be indoors so no need to worry about the heat! There will also be plenty of parking available at both venues for those who wish to drive.</p>
-            </div> */}
         </div>
         </>
     )

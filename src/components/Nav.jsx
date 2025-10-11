@@ -17,8 +17,8 @@ const Nav = () => {
                 <NavLink to="itinerary" end>
                     Itinerary
                 </NavLink>
-                <NavLink to="details-and-faqs" end>
-                    Details & FAQs
+                <NavLink to="faqs" end>
+                    FAQs
                 </NavLink>
                 <NavLink to="rsvp" end>
                     RSVP

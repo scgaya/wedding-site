@@ -10,13 +10,10 @@ const Itinerary = () => {
             <div className="Itinerary-timeline">
                 <h5>Day 1: Arrival</h5>
                 <p>Check-in, unwind, and explore the South Florida area at your own pace. This is your day to take it easy before all the festivities begin!</p>
-                {/* <hr width="80%" size="1" /> */}
                 <h5>Day 2: The Western Wedding</h5>
                 <p>The ceremony begins at 5 p.m. at St. John Neumann Catholic Church. Dinner, drinks, and dancing to follow. </p>
-                {/* <hr width="80%" size="1" /> */}
                 <h5>Day 3: The Eastern Wedding</h5>
-                <p>The Eastern reception will be held at the Weston Hills Country Club. Cocktails & hors-d'ouevres begin at 5 p.m., with the party to follow in the adjacent ballroom.</p>
-                {/* <hr width="80%" size="1" /> */}
+                <p>The Eastern reception will be held at the Weston Hills Country Club. Cocktails & hors-d'ouevres begin at 5 p.m., with the reception to follow.</p>
                 <h5>Day 4: Farewell Brunch</h5>
                 <p>A farewell brunch will begin at 9 a.m. at the Weston Hills Country Club, overlooking the golf course. One last hurrah before our goodbyes!</p>
             </div>

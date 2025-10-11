@@ -8,6 +8,8 @@ import Nav from './components/Nav';
 import Story from './components/Story';
 import Venue from './components/Venue';
 import Itinerary from './components/Itinerary';
+import FAQ from './components/FAQ';
+import RSVP from './components/RSVP';
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
         <Route path="story" element={<Story />} />
         <Route path="venue" element={<Venue />} />
         <Route path="itinerary" element={<Itinerary />} />
-        {/* <Route path="details-and-faqs" element={<FAQ />} />
-        <Route path="rsvp" element={<RSVP />} /> */}
+         <Route path="faqs" element={<FAQ />} />
+        <Route path="rsvp" element={<RSVP />} /> 
       </Routes>
     </div>
   );

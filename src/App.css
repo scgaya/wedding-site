@@ -40,7 +40,9 @@ a:active {
 .Home-container,
 .Story-container,
 .Venue-container,
-.Itinerary-container {
+.Itinerary-container,
+.FAQ-container,
+.RSVP-container {
   min-height: 96vh;
   display: flex;
   flex-direction: column;
@@ -134,5 +136,36 @@ a:active {
     padding-bottom: 1vh;
     font-size: calc(10px + 2vmin);
     text-decoration: underline;
+  }
+}
+
+/* FAQ section */
+.FAQ-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 4vw;
+
+  p {
+    padding: 0 4vw;
+  }
+}
+
+/* RSVP section */
+.RSVP-details {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    max-width: 30%;
+    padding: 2vh 6vw;
+  }
+}
+
+.RSVP-info {
+  text-align: center;
+
+  p {
+    padding: 0 8vw;
   }
 }
