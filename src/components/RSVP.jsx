@@ -8,7 +8,7 @@ const RSVP = () => {
             <div className="RSVP-details">
                 <img src={RSVPImage} alt="Sara laying her head on Andrew's shoulder"/>
                 <div className="RSVP-info">
-                    <h2>Please RSVP by March 31, 2026</h2>
+                    <h2>Please RSVP by March 20, 2026</h2>
                     (put RSVP button or form here)
                 </div>
                 <div className="Contact-info">

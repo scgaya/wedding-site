@@ -9,7 +9,7 @@ const Venue = () => {
             <hr width="20%" size="1" />
             <div className="Reception-details">
                 <div className="Title">The Reception</div>
-                <p>Dinner and dancing to follow at the Coral Gables Country Club. Expect an elegant, lively party where we get to celebrate our union with those we love most.</p>
+                <p>Dinner and dancing to follow at the Coral Gables Country Club. Expect an elegant and lively party where we get to celebrate our union with those we love most.</p>
             </div>
             <hr width="20%" size="1" />
             <div className="Pakistani-reception-details">

@@ -24,11 +24,6 @@ a.active {
   font-family: "Old Standard TT", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   padding-top: 4vh;
 }
@@ -82,6 +77,10 @@ a.active {
   }
 }
 
+.Nav-mobile {
+  display: none;
+}
+
 /* Story section */
 .Story-details {
   display: flex;
@@ -124,7 +123,7 @@ a.active {
 
   img {
     max-width: 30%;
-    padding-right: 8vw;
+    padding-right: 6vw;
     padding-top: 2vh;
   }
 }
@@ -177,5 +176,51 @@ a.active {
 
   p {
     padding: 0 8vw;
+  }
+}
+
+/* styling for mobile phones */
+@media (max-width: 450px) {
+  .App-header {
+    padding-top: 2vh;
+  }
+
+  /* Navigation */
+  .Nav-row {
+    display: none;
+  }
+
+  .Nav-mobile {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    position: relative;
+  }
+
+  .Nav-mobile-menu {
+    background-color: #fcf9f7;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    font-size: calc(1.5rem + 2vmin);
+
+    a {
+      padding-bottom: 1vh;
+    }
+  }
+
+  .Nav-hamburger-menu {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 1;
   }
 }

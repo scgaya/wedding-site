@@ -18,7 +18,7 @@ const FAQ = () => {
                     <h2>Accommodations</h2>
                     <p>We've reserved a block of rooms at X hotel in Weston, FL. When you make a reservation,
                         let the hotel know you are part of the Gaya-Sanchez wedding to receive the discount. You are 
-                        also welcome to stay anywhere you like in the area!
+                        also welcome to stay anywhere in the area!
                     </p>
                 </div>
                 <hr width="90%" size="1" />
