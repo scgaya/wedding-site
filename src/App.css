@@ -17,9 +17,10 @@ a.active {
 }
 
 .App {
-  text-align: center;
+  min-height: 100vh;
   background-color: #fcf9f7;
-  font-size: calc(6px + 2vmin);
+  text-align: center;
+  font-size: calc(0.4rem + 2vmin);
   font-family: "Old Standard TT", serif;
 }
 
@@ -34,7 +35,7 @@ a.active {
 
 .Title {
   font-family: "Parisienne", cursive;
-  font-size: calc(60px + 2vmin);
+  font-size: calc(3rem + 2vmin);
 }
 
 /* Home */
@@ -44,7 +45,6 @@ a.active {
 .Itinerary-container,
 .FAQ-container,
 .RSVP-container {
-  min-height: 96vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,14 +59,24 @@ a.active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 50vw;
+  width: 70%;
   justify-content: space-between;
+
+  p {
+    font-size: calc(0.6rem + 2vmin);
+  }
+}
+
+.Home-rsvp-link {
+  text-decoration: underline;
+  color: #3389cc;
 }
 
 /* Navigation */
 .Nav-row {
   display: flex;
   justify-content: center;
+  padding-bottom: 4vh;
   a {
     padding: 0 4vw;
   }
@@ -129,13 +139,12 @@ a.active {
   p {
     margin: 0;
     padding-bottom: 2vh;
-    font-size: calc(6px + 2vmin);
   }
 
   h5 {
     margin: 0;
     padding-bottom: 1vh;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(0.6rem + 2vmin);
     text-decoration: underline;
   }
 }
