@@ -277,6 +277,74 @@ button:hover {
   margin: 1vh 0;
 }
 
+/* styling for smaller computer screens */
+@media (max-width: 1215px) {
+  /* Story */
+  .Story-details {
+    img {
+      max-width: 35%;
+      padding-left: 4vw;
+      padding-top: 2vh;
+    }
+  }
+
+  /* Itinerary */
+  .Itinerary-details {
+    img {
+      max-width: 35%;
+      padding-right: 4vw;
+      padding-top: 2vh;
+    }
+  }
+
+  /* Contact */
+  .Contact-details {
+    img {
+      max-width: 35%;
+      padding-right: 4vw;
+      padding-top: 2vh;
+    }
+  }
+}
+
+/* styling for iPads */
+@media (max-width: 1000px) {
+  /* Home */
+  .Home-image {
+    width: 80%;
+  }
+
+  /* Story */
+  .Story-details {
+    img {
+      max-width: 50%;
+      height: 60%;
+      padding-left: 2vw;
+      padding-top: 2vh;
+    }
+  }
+
+  /* Itinerary */
+  .Itinerary-details {
+    img {
+      max-width: 50%;
+      height: 60%;
+      padding-right: 4vw;
+      padding-top: 2vh;
+    }
+  }
+
+  /* Contact */
+  .Contact-details {
+    img {
+      max-width: 50%;
+      height: 60%;
+      padding-right: 4vw;
+      padding-top: 2vh;
+    }
+  }
+}
+
 /* styling for mobile phones */
 @media (max-width: 450px) {
   .App {
