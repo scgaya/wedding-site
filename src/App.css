@@ -465,6 +465,7 @@ button:hover {
 
     img {
       max-width: 100%;
+      height: auto;
       padding: 0;
     }
   }
@@ -478,6 +479,7 @@ button:hover {
 
     img {
       max-width: 100%;
+      height: auto;
       padding: 0;
     }
   }
@@ -511,6 +513,7 @@ button:hover {
 
     img {
       max-width: 100%;
+      height: auto;
       padding: 0;
     }
   }
