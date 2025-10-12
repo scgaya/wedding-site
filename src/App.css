@@ -132,6 +132,8 @@ button:hover {
 .Story-paragraph {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 2vh;
   text-align: left;
   opacity: 0;
@@ -168,6 +170,7 @@ button:hover {
 .Itinerary-details {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 
   img {
     max-width: 30%;
@@ -180,8 +183,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 12vw;
   text-align: left;
+
+  padding: 0 12vw;
   opacity: 0;
   animation: 0.5s ease-in 1s fadeIn forwards;
 
@@ -232,6 +236,7 @@ button:hover {
 .Contact-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 2vh 6vw;
   opacity: 0;
