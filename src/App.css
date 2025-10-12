@@ -48,6 +48,8 @@ button:hover {
   /* font-family: "Parisienne", cursive; */
   font-family: "MonteCarlo", cursive;
   font-size: calc(3rem + 2vmin);
+  opacity: 0;
+  animation: 0.5s ease-in fadeIn forwards;
 }
 
 .Home-container,
@@ -61,11 +63,24 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* animation-duration: 1.2s;
+  animation-name: slide-up; */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .Home-subtitle {
   margin: 0;
   padding-bottom: 1vh;
+  opacity: 0;
+  animation: 0.5s ease-in fadeIn forwards;
 }
 
 /* Home */
@@ -79,6 +94,8 @@ button:hover {
   align-items: center;
   width: 70%;
   justify-content: space-between;
+  opacity: 0;
+  animation: 0.5s ease-in 1s fadeIn forwards;
 
   p {
     font-size: calc(0.6rem + 2vmin);
@@ -117,6 +134,8 @@ button:hover {
   flex-direction: column;
   padding-top: 2vh;
   text-align: left;
+  opacity: 0;
+  animation: 0.5s ease-in 1s fadeIn forwards;
 
   p {
     margin: 0;
@@ -132,9 +151,17 @@ button:hover {
 }
 
 .Ceremony-details,
-.Reception-details,
-.Dress-details {
+.Reception-details {
   padding-bottom: 1vh;
+}
+
+.Ceremony-details,
+.Reception-details,
+.Pakistani-reception-details {
+  p {
+    opacity: 0;
+    animation: 0.5s ease-in fadeIn forwards;
+  }
 }
 
 /* Itinerary */
@@ -155,6 +182,8 @@ button:hover {
   justify-content: center;
   padding: 0 12vw;
   text-align: left;
+  opacity: 0;
+  animation: 0.5s ease-in 1s fadeIn forwards;
 
   p {
     margin: 0;
@@ -170,6 +199,10 @@ button:hover {
 }
 
 /* FAQ */
+.FAQ-details {
+  opacity: 0;
+  animation: 0.5s ease-in fadeIn forwards;
+}
 .FAQ-row {
   display: flex;
   flex-direction: row;
@@ -201,6 +234,8 @@ button:hover {
   flex-direction: column;
   align-items: center;
   padding: 2vh 6vw;
+  opacity: 0;
+  animation: 0.5s ease-in 1s fadeIn forwards;
 }
 
 .Contact-card {
@@ -263,6 +298,25 @@ button:hover {
     align-items: center;
     justify-content: center;
     padding-top: 10vh;
+  }
+
+  /* no animations on mobile */
+  .Title,
+  .Home-subtitle,
+  .Home-details,
+  .Story-paragraph,
+  .Ceremony-details,
+  .Reception-details,
+  .Pakistani-reception-details,
+  .Itinerary-timeline,
+  .FAQ-details,
+  .Contact-info {
+    opacity: 1;
+    animation: none;
+    p {
+      opacity: 1;
+      animation: none;
+    }
   }
 
   /* Navigation */
