@@ -55,6 +55,7 @@ button:hover {
 .Venue-container,
 .Itinerary-container,
 .FAQ-container,
+.Contact-container,
 .RSVP-container {
   display: flex;
   flex-direction: column;
@@ -102,6 +103,7 @@ button:hover {
 .Story-details {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 
   img {
     max-width: 30%;
@@ -114,13 +116,15 @@ button:hover {
   display: flex;
   flex-direction: column;
   padding-top: 2vh;
+  text-align: left;
 
   p {
-    padding: 0 8vw;
+    margin: 0;
+    padding: 2vh 8vw;
   }
 }
 
-/* Venue section */
+/* Venue */
 .Venue-container {
   p {
     padding: 0 10vw;
@@ -174,7 +178,35 @@ button:hover {
   padding: 0 4vw;
 
   p {
+    text-align: left;
     width: 70%;
+  }
+}
+
+/* Contact */
+.Contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  img {
+    max-width: 30%;
+    padding-right: 4vw;
+    padding-top: 2vh;
+  }
+}
+
+.Contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 6vw;
+}
+
+.Contact-card {
+  padding-bottom: 1vh;
+  p {
+    margin: 1vh 1vw;
   }
 }
 
@@ -205,18 +237,6 @@ button:hover {
   margin: 1vh 0;
 }
 
-.Contact-info {
-  display: flex;
-  flex-direction: row;
-}
-
-.Contact-card {
-  p {
-    margin: 0;
-    padding: 0 2vw;
-  }
-}
-
 /* styling for mobile phones */
 @media (max-width: 450px) {
   .App {
@@ -236,6 +256,7 @@ button:hover {
   .Venue-container,
   .Itinerary-container,
   .FAQ-container,
+  .Contact-container,
   .RSVP-container {
     display: flex;
     flex-direction: column;
@@ -352,6 +373,19 @@ button:hover {
     margin: 0;
   }
 
+  /* Contact */
+  .Contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+
   /* RSVP */
   .RSVP-details {
     display: flex;
@@ -367,26 +401,5 @@ button:hover {
 
   .RSVP-text {
     padding: 0 2vw;
-  }
-
-  .Contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .Contact-details {
-    padding-top: 3vh;
-  }
-
-  .Contact-card {
-    border-bottom: solid 1px black;
-    margin-bottom: 2vh;
-    padding-bottom: 1vh;
-  }
-
-  .last {
-    border-bottom: none;
   }
 }

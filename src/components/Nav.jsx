@@ -24,6 +24,9 @@ const Nav = () => {
                 <NavLink to="faqs" end>
                     FAQs
                 </NavLink>
+                <NavLink to="contact" end>
+                    Contact
+                </NavLink>
                 {/* <NavLink to="rsvp" end>
                     RSVP
                 </NavLink> */}
@@ -48,6 +51,9 @@ const Nav = () => {
                         </NavLink>
                         <NavLink to="faqs" onClick={() => setOpen(isOpen => !isOpen)} end>
                             FAQs
+                        </NavLink>
+                        <NavLink to="contact" onClick={() => setOpen(isOpen => !isOpen)} end>
+                            Contact
                         </NavLink>
                         {/* <NavLink to="rsvp" onClick={() => setOpen(isOpen => !isOpen)} end>
                             RSVP
