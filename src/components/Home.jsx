@@ -9,7 +9,7 @@ const Home = () => {
         <div className="Home-container">
             <div className='Title'>Andrew & Sara</div>
             <p className="Home-subtitle">are getting married!</p>
-            <img src={HomeImage} className="Home-image" alt="Homepage landing of Sara & Andrew" />
+            <img src={HomeImage} className="Home-image" alt="Homepage landing of Sara & Andrew" loading="lazy" />
             <div className='Home-details'>
                 <p>May 22, 2026</p>
                 {/* <button>

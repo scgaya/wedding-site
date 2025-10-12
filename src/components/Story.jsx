@@ -7,7 +7,7 @@ const Story = () => {
         <div className="Story-container">
             <div className="Title">The Story</div>
             <div className="Story-details">
-                <img src={StoryImage} alt="Our Story pic of Sara smiling with Andrew looking at her" />
+                <img src={StoryImage} alt="Our Story pic of Sara smiling with Andrew looking at her" loading="lazy" />
                 <div className="Story-paragraph">
                     <p>
                         Sara and Andrew first met at the University of Florida (Go Gators!) as fellow Computer Science students. Andrew thought Sara was pretty from the start and made an effort 

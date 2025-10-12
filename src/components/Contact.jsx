@@ -26,7 +26,7 @@ const Contact = () => {
                             <p>dianneriggs@gmail.com</p>
                         </div>
                     </div>
-                    <img src={ContactImage} alt="Andrew holding Sara, both smiling at the camera" />
+                    <img src={ContactImage} alt="Andrew holding Sara, both smiling at the camera" loading="lazy" />
                 </div>
 
             </div>

@@ -17,7 +17,7 @@ const Itinerary = () => {
                 <h5>Sun, May 24: Farewell Brunch</h5>
                 <p>A farewell brunch will be held at The Club at Weston Hills beginning at 8 a.m.. One last hurrah before our goodbyes!</p>
             </div>
-            <img src={ItineraryImage} alt="Andrew & Sara smiling together in the Boston Public Garden" />
+            <img src={ItineraryImage} alt="Andrew & Sara smiling together in the Boston Public Garden" loading="lazy" />
         </div>
 
         

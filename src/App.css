@@ -41,7 +41,7 @@ button:hover {
 }
 
 .App-header {
-  padding-top: 4vh;
+  padding-top: 1vh;
 }
 
 .Title {
@@ -85,20 +85,22 @@ button:hover {
 
 /* Home */
 .Home-image {
-  width: 60%;
+  width: 55%;
 }
 
 .Home-details {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 70%;
+  width: 55%;
   justify-content: space-between;
   opacity: 0;
   animation: 0.5s ease-in 1s fadeIn forwards;
 
   p {
     font-size: calc(0.6rem + 2vmin);
+    margin: 0;
+    padding-top: 2vh;
   }
 }
 
