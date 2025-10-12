@@ -25,7 +25,7 @@ const FAQ = () => {
                 <div className="FAQ-row">
                     <h2>Getting Around</h2>
                     <p>There is a considerable distance between the venue for Friday and the venue for Saturday, so for guests 
-                        arriving from out of town we recommend renting a car. Carpooling is also encouraged, and ridesharing is always an option.
+                        arriving from out of town we recommend renting a car. Carpooling is also encouraged, and rideshare services are always an option.
                         All venues will have plenty of parking spaces. 
                     </p>
                 </div>
