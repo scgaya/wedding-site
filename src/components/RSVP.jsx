@@ -11,9 +11,8 @@ const RSVP = () => {
                 <div className="RSVP-info">
                     <div className="RSVP-text">
                         <h2>Please RSVP by March 20, 2026</h2>
-                        <button className="RSVP-button">
-                            <NavLink to="/" end>RSVP Here</NavLink>
-                        </button>
+                        {/* get form from https://www.oursvp.app/console */}
+                        <div id="rsvp-widget"></div> 
                     </div>
                     <div className="Contact-details">
                         <h2>Contact Info</h2>

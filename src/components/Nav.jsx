@@ -24,9 +24,9 @@ const Nav = () => {
                 <NavLink to="faqs" end>
                     FAQs
                 </NavLink>
-                <NavLink to="rsvp" end>
+                {/* <NavLink to="rsvp" end>
                     RSVP
-                </NavLink>
+                </NavLink> */}
             </nav>
             {/* mobile nav hamburger menu  */}
             <nav className='Nav-mobile'>
@@ -49,9 +49,9 @@ const Nav = () => {
                         <NavLink to="faqs" onClick={() => setOpen(isOpen => !isOpen)} end>
                             FAQs
                         </NavLink>
-                        <NavLink to="rsvp" onClick={() => setOpen(isOpen => !isOpen)} end>
+                        {/* <NavLink to="rsvp" onClick={() => setOpen(isOpen => !isOpen)} end>
                             RSVP
-                        </NavLink>
+                        </NavLink> */}
                     </nav>
             </nav>
         </>

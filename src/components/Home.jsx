@@ -7,13 +7,14 @@ const Home = () => {
     return (
     <>
         <div className="Home-container">
-            <div className='Title'>Sara & Andrew</div>
+            <div className='Title'>Andrew & Sara</div>
+            <p className="Home-subtitle">are getting married!</p>
             <img src={HomeImage} className="Home-image" alt="Homepage landing of Sara & Andrew" />
             <div className='Home-details'>
                 <p>May 22, 2026</p>
-                <button>
+                {/* <button>
                     <NavLink to="rsvp" end>RSVP</NavLink>
-                </button>
+                </button> */}
                 <p>Miami, FL</p>
             </div>
         </div>
