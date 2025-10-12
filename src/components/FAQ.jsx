@@ -32,7 +32,7 @@ const FAQ = () => {
                 <hr width="90%" size="1" />
                 <div className="FAQ-row">
                     <h2>Gift Registry</h2>
-                    <p>Your presence is truly the best gift we could ask for, nothing more needed! But if you would like 
+                    <p>Your presence is truly the best gift we could ask for, nothing more needed! But if you would like to 
                         contribute to our new chapter together, we've put together a honeymoon fund as well as a small registry with 
                         some of our most wished-for items. 
                         Link to fund: <NavLink to="#" end>www.saraandandrewfund.com</NavLink>. 
