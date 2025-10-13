@@ -15,7 +15,7 @@ const Story = () => {
                     </p>
                     <p>
                         Andrew would offer Sara rides home during college breaks, and both sides of parents noticed that these two were spending quite a 
-                        bit of time together! But of course they somehow didn't start dating until 2020, right when the COVID pandemic was in full swing. But even during that tumultuous time, they were happy to spend time together however possible. 
+                        bit of time together! But they didn't start dating until 2020, right when the COVID pandemic hit. But even during that tumultuous time, they were happy to spend time together however possible. 
                     </p>
                     <p>
                         
