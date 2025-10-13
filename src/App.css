@@ -187,20 +187,19 @@ button:hover {
   justify-content: center;
   text-align: left;
 
-  padding: 0 12vw;
+  padding: 1vh 12vw;
   opacity: 0;
   animation: 0.5s ease-in 1s fadeIn forwards;
 
   p {
     margin: 0;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
   }
 
   h5 {
     margin: 0;
-    padding-bottom: 1vh;
+    padding-top: 1vh;
     font-size: calc(0.6rem + 2vmin);
-    text-decoration: underline;
   }
 }
 
@@ -481,6 +480,13 @@ button:hover {
       max-width: 100%;
       height: auto;
       padding: 0;
+    }
+  }
+
+  .Itinerary-timeline {
+    padding-top: 2vh;
+    h5 {
+      text-align: center;
     }
   }
 

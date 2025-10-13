@@ -7,7 +7,7 @@ const Home = () => {
     return (
     <>
         <div className="Home-container">
-            <div className='Title'>Andrew & Sara</div>
+            <div className='Title'>Sara & Andrew</div>
             <p className="Home-subtitle">are getting married!</p>
             <img src={HomeImage} className="Home-image" alt="Homepage landing of Sara & Andrew" loading="lazy" />
             <div className='Home-details'>
