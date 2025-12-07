@@ -15,10 +15,10 @@ const Itinerary = () => {
                 <p>The ceremony begins at 5 p.m., with dinner, drinks, and dancing to follow. </p>
                 <hr width="100%" size="1" />
                 <h3>Sat, May 23: The Pakistani Reception</h3>
-                <p>Cocktails & hors-d'ouevres begin at 5 p.m., with the reception to follow.</p>
+                <p>Cocktails & hors-d'ouevres begin at 7 p.m., with the reception to follow.</p>
                 <hr width="100%" size="1" />
                 <h3>Sun, May 24: Farewell Brunch</h3>
-                <p>A farewell brunch will be held starting at 8 a.m. at The Club at Weston Hills. One last hurrah before our goodbyes!</p>
+                <p>A farewell brunch will be held starting at 11 a.m. at The Club at Weston Hills. One last hurrah before our goodbyes!</p>
             </div>
             <img src={ItineraryImage} alt="Sara & Andrew smiling together in the Boston Public Garden" loading="lazy" />
         </div>
