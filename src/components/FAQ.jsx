@@ -16,7 +16,19 @@ const FAQ = () => {
                 <hr width="90%" size="1" />
                 <div className="FAQ-row">
                     <h2>Accommodations</h2>
-                    <p>You are welcome to stay anywhere in the Miami/Ft. Lauderdale area! We will update this section with recommended hotels in the near future.
+                    <p>You are welcome to stay anywhere in the Miami/Ft. Lauderdale area! Listed below are a few recommended hotels:
+                        <br/>
+                        <NavLink to={"https://www.marriott.com/en-us/hotels/fllwc-courtyard-fort-lauderdale-weston/overview/"} target="_blank">
+                           • Courtyard by Marriott Ft. Lauderdale/Weston
+                        </NavLink>
+                        <br/>
+                        <NavLink to={"https://www.marriott.com/en-us/hotels/flltw-towneplace-suites-fort-lauderdale-weston/overview/"} target="_blank">
+                           • TownePlace Suites by Marriott Ft. Lauderdale/Weston
+                        </NavLink>
+                        <br/>
+                        <NavLink to={"https://vacationvillageresorts.com/mizner_place/index.html"} target="_blank">
+                           • Mizner Place at Weston Town Center
+                        </NavLink>
                     </p>
                 </div>
                 <hr width="90%" size="1" />
