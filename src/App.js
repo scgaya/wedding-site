@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from "react-router";
-
+import { preload } from 'react-dom';
 
 // components
 import Home from './components/Home';
@@ -12,7 +12,17 @@ import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import RSVP from './components/RSVP';
 
+const preloadImages = () => {
+ preload("images/PBM_9314.jpg", {
+    as: "image"
+  });
+  preload("images/PBM_9350.jpg", {
+    as: "image"
+  });
+};
+
 function App() {
+  preloadImages();
   return (
     <div className="App">
       <header className='App-header'>
