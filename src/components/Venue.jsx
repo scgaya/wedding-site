@@ -22,7 +22,7 @@ const Venue = () => {
             <hr width="20%" size="1" />
             <div className="Pakistani-reception-details">
                 <div className="Title">The Pakistani Reception</div>
-                <p>A Pakistani reception will take place the following day at The Club at Weston Hills. Cocktails and hors d'ouevres begin at 5 p.m., with the reception to follow in the adjacent ballroom.</p>
+                <p>A Pakistani reception will take place the following day at The Club at Weston Hills. Cocktails and hors d'ouevres begin at 7 p.m., with the reception to follow in the adjacent ballroom.</p>
                 <p>2600 Country Club Way
                     <br/>
                     Weston, FL 33332

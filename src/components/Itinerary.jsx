@@ -8,7 +8,7 @@ const Itinerary = () => {
         <div className="Title">Itinerary</div>
         <div className="Itinerary-details">
             <div className="Itinerary-timeline">
-                <h3>Week of Wedding: Arrival</h3>
+                <h3>Wedding Week: Arrival</h3>
                 <p>Check-in, unwind, and explore the South Florida area at your own pace. This is your chance to relax before all the festivities begin!</p>
                 <hr width="100%" size="1" />
                 <h3>Fri, May 22: The Wedding</h3>

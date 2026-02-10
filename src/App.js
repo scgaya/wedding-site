@@ -1,7 +1,5 @@
 import './App.css';
 import { Routes, Route } from "react-router";
-import { preload } from 'react-dom';
-
 // components
 import Home from './components/Home';
 import Nav from './components/Nav';
@@ -11,18 +9,24 @@ import Itinerary from './components/Itinerary';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import RSVP from './components/RSVP';
-
-const preloadImages = () => {
- preload("images/PBM_9314.jpg", {
-    as: "image"
-  });
-  preload("images/PBM_9350.jpg", {
-    as: "image"
-  });
-};
+import { useEffect } from 'react';
 
 function App() {
-  preloadImages();
+  useEffect(() => {
+    // Preload images when app starts
+    const imagesToPreload = [
+      '/images/PBM_9314.jpg',
+      '/images/PBM_9350.jpg',
+      '/images/PBM_9261.jpg',
+      '/images/PBM_9081.jpg', 
+    ];
+
+    imagesToPreload.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
   return (
     <div className="App">
       <header className='App-header'>

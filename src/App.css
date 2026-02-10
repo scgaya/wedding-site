@@ -1,5 +1,14 @@
 img {
   max-width: 100%;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 0.1s;
+}
+
+iframe {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+  animation-delay: 0.2s;
 }
 
 a {
@@ -265,8 +274,9 @@ button:hover {
 
 .RSVP-text {
   text-align: center;
-  padding-bottom: 6vh;
+  padding-bottom: 2vh;
   padding: 0 8vw;
+  width: 100%;
 }
 
 .RSVP-button {
@@ -417,6 +427,7 @@ button:hover {
     text-align: center;
     transition: 0.3s ease-in-out;
     font-size: calc(1.5rem + 2vmin);
+    z-index: 1000;
 
     a {
       padding-bottom: 1vh;

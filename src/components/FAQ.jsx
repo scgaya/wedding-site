@@ -8,7 +8,7 @@ const FAQ = () => {
             <div className="FAQ-details">
                 <div className="FAQ-row">
                     <h2>Dress Code</h2>
-                    <p>We kindly request formal attire for the wedding. All events will be indoors,
+                    <p>We kindly request formal attire for both wedding events. All events will be indoors,
                         so no need to worry about the heat! We recommend bringing a light jacket or shawl 
                         as the indoor venues may get chilly.
                     </p>
@@ -43,10 +43,10 @@ const FAQ = () => {
                 <div className="FAQ-row">
                     <h2>Gift Registry</h2>
                     <p>Your presence is truly the best gift we could ask for, nothing more needed! But if you would like to 
-                        contribute to our new chapter together, we will be putting together a honeymoon fund as well as a small registry with 
-                        some of our most wished-for items. Stay tuned!
-                        {/* Link to fund: <NavLink to="#" end>www.saraandandrewfund.com</NavLink>. 
-                        Link to registry: <NavLink to="#" end>www.saraandandrewregistry.com</NavLink> */}
+                        contribute to our new chapter together, we've put together a honeymoon fund and select gifts that we would love to receive. 
+                        We will post our registry here in the next few weeks, stay tuned!
+                        {/* <br />
+                        Link to Registry: <NavLink to={"https://www.zola.com/registry/saraandandrewmay22"} target="_blank">Gaya-Sanchez Registry</NavLink> */}
                     </p>
                 </div>
             </div>
